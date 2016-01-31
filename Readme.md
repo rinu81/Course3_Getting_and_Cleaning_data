@@ -1,5 +1,5 @@
 Tidy data derived from theHuman Activity Recognition Using Smartphones Dataset
-
+By: Rinu
 ==================================================================
 
 Original Dataset Information
@@ -24,8 +24,8 @@ From the data set in step 4, create a second, independent tidy data set with the
 ==================================================================
 Transformed Information
 ==================================================================
--subjectid : a code given to the person/volunteer on whom the experiment was carried out
--activityname: each volunteer carried out 6 activities (walking,walking_upstairs,
+*subjectid : a code given to the person/volunteer on whom the experiment was carried out
+*activityname: each volunteer carried out 6 activities (walking,walking_upstairs,
 walking_downstairs,sitting,standing,laying)
--the rest of the data is average of (mean() and std()) variables measured in the experiment
+*the rest of the data is average of (mean() and std()) variables measured in the experiment
 
