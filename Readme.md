@@ -1,6 +1,6 @@
 Tidy data derived from theHuman Activity Recognition Using Smartphones Dataset
-==================================================================
 
+==================================================================
 Original Dataset Information
 ==================================================================
 For each record in the dataset it is provided: 
