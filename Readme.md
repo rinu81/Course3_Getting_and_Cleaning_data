@@ -1,12 +1,8 @@
-==================================================================
 Tidy data derived from theHuman Activity Recognition Using Smartphones Dataset
 
 ==================================================================
-Rinu
-Kathmandu, Nepal
-==================================================================
 
-The original dataset included the following information
+Original Dataset Information
 ==================================================================
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
@@ -16,7 +12,7 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ==================================================================
-The datasets were transformed through the following steps
+Transformation steps
 ==================================================================
 1. Merge the training and the test sets to create one data set
 2. Extract the measurements on the mean and standard deviation for each measurement
@@ -26,7 +22,7 @@ From the data set in step 4, create a second, independent tidy data set with the
 
 
 ==================================================================
-The transformed data includes the following information
+Transformed Information
 ==================================================================
 -subjectid : a code given to the person/volunteer on whom the experiment was carried out
 -activityname: each volunteer carried out 6 activities (walking,walking_upstairs,
