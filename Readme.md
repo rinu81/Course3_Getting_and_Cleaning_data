@@ -19,12 +19,18 @@ Transformation steps
 4. Label the data set with descriptive variable names
 From the data set in step 4, create a second, independent tidy data set with the average 5. of each variable for each activity and each subject
 
+==================================================================
+Code description
+==================================================================
+1. Loads the required packages (# data.table and # dplyr).
+2. Loads the (train and test) datasets to R, using # read.table.
+3. Reads the features.txt data set.
+4. Merges the train and test data through # cbind and # rbind to # merged_data.
+5. Finds the keywords mean and std from the column names of the merged data to extract the measurements on mean and standard deviation for each measurement. And subsets the required columns to # onlyMeanStdData.
+6. The activities are numbered (1 -6). Gives the descriptive names for each activity. To do so, reads activity_label.txt and merges it to the data from 6.
+7. Column names look better without the special characters and are preferred to include numbers and characters. So removes the '-', '(', ')' etc. Also to make the column names more unstandable, replaces time for t and freq for f.
+8. Finds the mean each measurement variable grouped by the volunteer and the activity.
+9. Also sorts the data through subjectid and activity.
+10. Writes the tidy data obtained through the above steps into a text file.
 
-==================================================================
-Transformed Information
-==================================================================
-*subjectid : a code given to the person/volunteer on whom the experiment was carried out
-*activityname: each volunteer carried out 6 activities (walking,walking_upstairs,
-walking_downstairs,sitting,standing,laying)
-*the rest of the data is average of (mean() and std()) variables measured in the experiment
 

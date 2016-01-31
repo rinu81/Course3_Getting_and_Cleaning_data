@@ -63,4 +63,4 @@ finalData <- requiredData %>%
         summarize_each(funs(mean)) %>%
         arrange(desc(subjectId), activityName)
 
-write.table(finalData,"./course3_assignment_tidydata.txt")
+write.table(finalData,"./course3_assignment_tidydata.txt", row.names = FALSE)
